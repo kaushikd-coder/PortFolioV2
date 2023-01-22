@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "@next/font": "13.1.4",
+    "@portabletext/react": "^2.0.0",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
@@ -19,6 +21,7 @@
     "next": "13.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.42.1",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^5.15.0",
     "tailwind-scrollbar": "^2.1.0",

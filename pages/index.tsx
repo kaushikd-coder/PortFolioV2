@@ -8,6 +8,9 @@ import About from '@/components/About'
 import WorkExperience from '@/components/WorkExperience'
 import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
+import ContactMe from '@/components/ContactMe'
+import Link from 'next/link'
+import profile from '@/public/kd.jpg'
 // import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +21,7 @@ export default function Home() {
       <Head>
         <title>Kaushik's Portfolio</title>
       </Head>
-      <Header/>
+      <Header />
 
       <section id='hero' className='snap-start'>
         <Hero />
@@ -33,13 +36,24 @@ export default function Home() {
       </section>
 
       <section id='skills' className='snap-start'>
-        <Skills/>
+        <Skills />
       </section>
 
       <section id='projects' className='snap-start'>
-          <Projects />
+        <Projects />
       </section>
 
+      <section id='contact' className='snap-start'>
+        <ContactMe />
+      </section>
+
+      <Link href='#hero'>
+        <footer className='sticky bottom-5 w-full cursor-pointer'>
+          <div className='flex items-center justify-center'>
+            <Image className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer' src={profile} alt='prp' />
+          </div>
+        </footer>
+      </Link>
 
     </div>
   )
