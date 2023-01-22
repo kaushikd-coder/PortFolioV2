@@ -49,7 +49,7 @@ const Project = [
                 image: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/junrqwfvds7vuowcovsv"
             }
         ],
-        summary: "The SocialMedia clone project is a web application that allows users to create their own social media platform. It is designed to be a clone of popular social media sites such as Facebook. The project includes features such as user profiles, posts, comments, likes, shares, and more. It also includes an admin panel for managing users and content. The project is written in React and uses the Node, Express framework. It also utilizes MongoDb for data storage. The project is open source and can be modified to fit the needs of any user or organization.",
+        summary: "EbayWeb3 NFT project typically involves the creation, issuance, and trading of non-fungible tokens, or NFTs. The project involve the digitization of real-world assets, such as artworks, collectibles, and real estate, which can then be tokenized and traded on a blockchain. An NFT project also involve the creation of unique digital assets, such as digital art, music, or videos, which can be tokenized and sold as NFTs.",
         link: "https://ebay-nft-marketplace-ithvwc2bf-kaushikd-coder.vercel.app/"
     },
     {
