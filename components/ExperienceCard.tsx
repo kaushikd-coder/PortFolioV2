@@ -46,7 +46,7 @@ const ExperienceCard = () => {
                         src="https://cdn.sanity.io/images/f84jpum9/production/d488cc19327ae22780a2f12d7531c159327fe99a-1200x630.jpg?w=2000&fit=max&auto=format"
                         alt="prp"
                     />
-                      <img
+                    <img
                         className='h-10 w-10 rounded-full'
                         src="https://cdn.sanity.io/images/f84jpum9/production/359a65114b1d56ad5ee0809bfff4bf397ee5aba5-360x360.png?w=2000&fit=max&auto=format"
                         alt="prp"
@@ -70,8 +70,8 @@ const ExperienceCard = () => {
                 </p>
                 <ul className='list-disc space-y-4 ml-5 text-sm max-h-40 pr-5 overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A]/80'>
                     <li>Integrating Mixpanel involves adding a small snippet of JavaScript code to your website or mobile app.
-The code sends data to Mixpanel servers, which can be used to create reports and visualizations about user behavior.
-Mixpanel also provides APIs and libraries for different programming languages, allowing for direct data sending from the server and advanced analytics.</li>
+                        The code sends data to Mixpanel servers, which can be used to create reports and visualizations about user behavior.
+                        Mixpanel also provides APIs and libraries for different programming languages, allowing for direct data sending from the server and advanced analytics.</li>
                     <li>Create a plan for integrating the vendor's products or services into our applications.Set up a system for monitoring and evaluating the vendor's performance to ensure they are meeting the agreed-upon terms and conditions.</li>
                     <li>Add the Auth0 client library to our application, which will handle the communication between our application and Auth0.Implemented the login method in our application, which redirects the user to the Auth0 login page.</li>
                     <li>Create a payment form in our application, where customers can enter their credit card information.Use Stripe's APIs to create a token for the credit card information entered by the customer.Send the token and any other relevant information, such as the amount of the purchase, to our server.Use Stripe's APIs on our server to create a charge, which processes the payment and charges the customer's credit card.</li>
